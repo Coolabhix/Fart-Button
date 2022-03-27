@@ -1,0 +1,35 @@
+body {
+  margin-top: 10rem;
+  text-align: center;
+  background-color: #EA5C2B;
+}
+
+.fart {
+  text-align: center;
+  border-radius: 500rem;
+  height: 20rem;
+  width: 20rem;
+  background-color: #DA1212;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 0 9px #999;
+  font-family: 'Anton', sans-serif;
+  font-size: 5rem;
+  color: #9AD0EC;
+}
+
+
+
+.fart:hover {
+  background-image: url("images/fart.gif");
+}
+
+.fart:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
